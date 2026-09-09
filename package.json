@@ -1,0 +1,29 @@
+{
+  "name": "luvi-grind-event-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "inspect": "node scripts/inspectBot.js",
+    "watch": "node scripts/clashWatcher.js",
+    "study": "node scripts/clashStudy.js",
+    "test": "node --check src/index.js && node --check scripts/inspectBot.js && node --check src/utils/eventRules.js && node --check src/utils/leaderboard.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "luvi",
+    "event",
+    "leaderboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "Discord bot for tracking a Luvi 7-day grind event leaderboard.",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "mongodb": "^6.21.0"
+  }
+}
