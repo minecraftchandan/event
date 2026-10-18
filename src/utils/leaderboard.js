@@ -1,13 +1,5 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
 import { getLeaderboardCollection } from '../data/mongo.js';
 import { getPlayerSnapshot } from './eventRules.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const legacyDataPath = path.join(__dirname, '../data/leaderboard.json');
 
 function createEmptyPlayer(userId, username = 'Unknown') {
   return {
@@ -43,32 +35,6 @@ export function normalizePlayerRecord(player = {}) {
     clashAp: Number(snapshot.clashAp || 0),
     totalAp: Number(snapshot.totalAp || 0),
   };
-}
-
-export async function migrateLegacyLeaderboard() {
-  if (!fs.existsSync(legacyDataPath)) return 0;
-
-  const contents = fs.readFileSync(legacyDataPath, 'utf8').trim();
-  if (!contents) return 0;
-
-  const collection = getLeaderboardCollection();
-  if (await collection.countDocuments() > 0) return 0;
-
-  const legacyData = JSON.parse(contents);
-  const players = Object.values(legacyData.players || {}).map((player) => {
-    const normalized = normalizePlayerRecord(player);
-    return {
-      ...normalized,
-      _id: String(normalized.userId),
-      _version: 1,
-      updatedAt: new Date(),
-    };
-  });
-  if (!players.length) return 0;
-
-  await collection.insertMany(players);
-  console.log(`Imported ${players.length} player records from the legacy leaderboard JSON.`);
-  return players.length;
 }
 
 export async function getPlayerRecord(userId) {

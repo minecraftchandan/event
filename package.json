@@ -6,10 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "inspect": "node scripts/inspectBot.js",
-    "watch": "node scripts/clashWatcher.js",
-    "study": "node scripts/clashStudy.js",
-    "test": "node --check src/index.js && node --check scripts/inspectBot.js && node --check src/utils/eventRules.js && node --check src/utils/leaderboard.js"
+    "test": "node --check src/index.js && node --check src/utils/eventRules.js && node --check src/utils/leaderboard.js"
   },
   "keywords": [
     "discord",

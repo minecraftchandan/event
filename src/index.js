@@ -8,7 +8,6 @@ import { execute as playerStatsExecute, handleStatsView } from './commands/playe
 import { executeMessage as adminPlayerMessage, handleComponent as handleAdminPlayerComponent, handleModal as handleAdminPlayerModal, handleDeleteConfirmation } from './commands/adminPlayer.js';
 import { registerDropHandler } from './handlers/dropHandler.js';
 import { registerClashHandler } from './handlers/clashHandler.js';
-import { migrateLegacyLeaderboard } from './utils/leaderboard.js';
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
@@ -16,7 +15,6 @@ const client = new Client({
 
 const TOKEN = (process.env.DISCORD_TOKEN || '').trim();
 const LUVI_BOT_ID = (process.env.LUVI_BOT_ID || '').trim();
-const prefix = ['e', 'E'];
 
 client.once('clientReady', () => {
   console.log(`Logged in as ${client.user.tag}`);
@@ -60,35 +58,29 @@ client.on('messageCreate', async (message) => {
   try {
     if (message.author.bot) return;
 
-    const content = message.content || '';
+    const content = (message.content || '').trim();
     const botMention = client.user ? new RegExp(`^<@!?${client.user.id}>\\s*`, 'i') : null;
     const isMentionCommand = botMention?.test(content);
-    if (!content.startsWith(prefix) && !isMentionCommand) return;
+    const commandContent = isMentionCommand ? content.replace(botMention, '').trim() : content;
+    const [commandName, ...args] = commandContent.split(/\s+/);
+    const command = commandName?.toLowerCase();
 
-    const text = isMentionCommand
-      ? content.replace(botMention, '').trim()
-      : content.slice(prefix.length).trim();
-    if (!text) return;
-
-    const [commandName, ...args] = text.split(/\s+/);
-    const command = commandName.toLowerCase();
-
-    if (command === 'admin' || command === 'add') {
+    if (command === 'eadd') {
       await adminPlayerMessage(message, args[0]);
       return;
     }
 
-    if (command === 'reset' || command === 'rest') {
+    if (command === 'ereset') {
       await resetLeaderboardMessage(message);
       return;
     }
 
-    if (command === 'help') {
+    if (command === 'ehelp') {
       await eventHelpExecute({ reply: async (payload) => message.reply(payload) });
       return;
     }
 
-    if (command === 'ms' || command === 'ems') {
+    if (command === 'ems') {
       const rawArg = args[0];
       let targetUser = message.author;
       if (rawArg) {
@@ -105,7 +97,7 @@ client.on('messageCreate', async (message) => {
       return;
     }
 
-    if (command === 'lb' || command === 'elb') {
+    if (command === 'elb') {
       await leaderboardExecute({
         options: { getInteger: () => 1 },
         reply: async (payload) => message.reply(payload),
@@ -120,7 +112,6 @@ client.on('messageCreate', async (message) => {
 });
 
 await connectToMongo();
-await migrateLegacyLeaderboard();
 
 registerDropHandler(client, LUVI_BOT_ID);
 registerClashHandler(client, LUVI_BOT_ID);
