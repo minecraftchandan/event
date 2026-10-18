@@ -5,8 +5,9 @@ import { announceMilestones } from '../utils/milestones.js';
 
 const processedDropMessages = new Set();
 
-export function registerDropHandler(client, LUVI_BOT_ID) {
+export function registerDropHandler(client, LUVI_BOT_ID, DISCORD_GUILD_ID) {
   client.on('messageUpdate', async (_oldMessage, newMessage) => {
+    if (newMessage.guildId !== DISCORD_GUILD_ID) return;
     if (!newMessage.author?.bot || String(newMessage.author.id) !== LUVI_BOT_ID) return;
     if (processedDropMessages.has(newMessage.id)) return;
 

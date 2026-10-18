@@ -14,13 +14,20 @@ const client = new Client({
 });
 
 const TOKEN = (process.env.DISCORD_TOKEN || '').trim();
+const DISCORD_GUILD_ID = (process.env.DISCORD_GUILD_ID || '').trim();
 const LUVI_BOT_ID = (process.env.LUVI_BOT_ID || '').trim();
+
+if (!DISCORD_GUILD_ID) {
+  throw new Error('DISCORD_GUILD_ID must be set to restrict the bot to its event server.');
+}
 
 client.once('clientReady', () => {
   console.log(`Logged in as ${client.user.tag}`);
 });
 
 client.on('interactionCreate', async (interaction) => {
+  if (interaction.guildId !== DISCORD_GUILD_ID) return;
+
   if (interaction.isStringSelectMenu()) {
     try {
       await handleStatsView(interaction);
@@ -56,6 +63,7 @@ client.on('interactionCreate', async (interaction) => {
 
 client.on('messageCreate', async (message) => {
   try {
+    if (message.guildId !== DISCORD_GUILD_ID) return;
     if (message.author.bot) return;
 
     const content = (message.content || '').trim();
@@ -113,7 +121,7 @@ client.on('messageCreate', async (message) => {
 
 await connectToMongo();
 
-registerDropHandler(client, LUVI_BOT_ID);
-registerClashHandler(client, LUVI_BOT_ID);
+registerDropHandler(client, LUVI_BOT_ID, DISCORD_GUILD_ID);
+registerClashHandler(client, LUVI_BOT_ID, DISCORD_GUILD_ID);
 
 await client.login(TOKEN);
