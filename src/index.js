@@ -16,7 +16,7 @@ const client = new Client({
 
 const TOKEN = (process.env.DISCORD_TOKEN || '').trim();
 const LUVI_BOT_ID = (process.env.LUVI_BOT_ID || '').trim();
-const prefix = 'e';
+const prefix = ['e', 'E'];
 
 client.once('clientReady', () => {
   console.log(`Logged in as ${client.user.tag}`);
