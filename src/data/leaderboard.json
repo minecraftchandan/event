@@ -1,0 +1,1110 @@
+{
+  "players": {
+    "587709425708695552": {
+      "userId": "587709425708695552",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "rare": 1,
+        "uncommon": 2
+      },
+      "clashCardCounts": {
+        "common": 6
+      },
+      "clashCount": 12,
+      "dropCount": 3,
+      "collectionAp": 13,
+      "clashAp": 100,
+      "totalAp": 113,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 3,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 3,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 3,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 3,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 12,
+          "complete": true
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 12,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 12,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 12,
+          "complete": false
+        }
+      ]
+    },
+    "755312232338030604": {
+      "userId": "755312232338030604",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "rare": 1,
+        "uncommon": 1
+      },
+      "clashCardCounts": {},
+      "clashCount": 0,
+      "dropCount": 2,
+      "collectionAp": 5,
+      "clashAp": 0,
+      "totalAp": 5,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 2,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 0,
+          "complete": false
+        }
+      ]
+    },
+    "1318473958051549187": {
+      "userId": "1318473958051549187",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "uncommon": 2
+      },
+      "clashCardCounts": {
+        "uncommon": 1,
+        "common": 5
+      },
+      "clashCount": 11,
+      "dropCount": 2,
+      "collectionAp": 11,
+      "clashAp": 100,
+      "totalAp": 111,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 2,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 11,
+          "complete": true
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 11,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 11,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 11,
+          "complete": false
+        }
+      ]
+    },
+    "1490710271398903970": {
+      "userId": "1490710271398903970",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "rare": 1
+      },
+      "clashCardCounts": {},
+      "clashCount": 0,
+      "dropCount": 1,
+      "collectionAp": 3,
+      "clashAp": 0,
+      "totalAp": 3,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 1,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 0,
+          "complete": false
+        }
+      ]
+    },
+    "155195731295207424": {
+      "userId": "155195731295207424",
+      "username": "Unknown",
+      "dropCardCounts": {},
+      "clashCardCounts": {
+        "uncommon": 6,
+        "common": 2
+      },
+      "clashCount": 10,
+      "dropCount": 0,
+      "collectionAp": 14,
+      "clashAp": 100,
+      "totalAp": 114,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 0,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 10,
+          "complete": true
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 10,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 10,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 10,
+          "complete": false
+        }
+      ]
+    },
+    "1172077047569457233": {
+      "userId": "1172077047569457233",
+      "username": "Unknown",
+      "dropCardCounts": {},
+      "clashCardCounts": {},
+      "clashCount": 4,
+      "dropCount": 0,
+      "collectionAp": 0,
+      "clashAp": 0,
+      "totalAp": 0,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 0,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 4,
+          "complete": false
+        }
+      ]
+    },
+    "1256576370587336725": {
+      "userId": "1256576370587336725",
+      "username": "Unknown",
+      "dropCardCounts": {},
+      "clashCardCounts": {
+        "common": 2
+      },
+      "clashCount": 4,
+      "dropCount": 0,
+      "collectionAp": 2,
+      "clashAp": 0,
+      "totalAp": 2,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 0,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 4,
+          "complete": false
+        }
+      ]
+    },
+    "1087310014751973476": {
+      "userId": "1087310014751973476",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "uncommon": 1,
+        "rare": 1
+      },
+      "clashCardCounts": {
+        "common": 7,
+        "uncommon": 1,
+        "exotic": 1
+      },
+      "clashCount": 10,
+      "dropCount": 2,
+      "collectionAp": 19,
+      "clashAp": 100,
+      "totalAp": 119,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 2,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 10,
+          "complete": true
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 10,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 10,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 10,
+          "complete": false
+        }
+      ]
+    },
+    "790057643779555339": {
+      "userId": "790057643779555339",
+      "username": "Unknown",
+      "dropCardCounts": {},
+      "clashCardCounts": {
+        "common": 1
+      },
+      "clashCount": 4,
+      "dropCount": 0,
+      "collectionAp": 1,
+      "clashAp": 0,
+      "totalAp": 1,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 0,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 4,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 4,
+          "complete": false
+        }
+      ]
+    },
+    "1216630351687061514": {
+      "userId": "1216630351687061514",
+      "username": "Unknown",
+      "dropCardCounts": {},
+      "clashCardCounts": {
+        "uncommon": 1
+      },
+      "clashCount": 1,
+      "dropCount": 0,
+      "collectionAp": 2,
+      "clashAp": 0,
+      "totalAp": 2,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 0,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 1,
+          "complete": false
+        }
+      ]
+    },
+    "692980677733384222": {
+      "userId": "692980677733384222",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "uncommon": 1
+      },
+      "clashCardCounts": {},
+      "clashCount": 0,
+      "dropCount": 1,
+      "collectionAp": 2,
+      "clashAp": 0,
+      "totalAp": 2,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 1,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 0,
+          "complete": false
+        }
+      ]
+    },
+    "668336272368074763": {
+      "userId": "668336272368074763",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "rare": 1
+      },
+      "clashCardCounts": {},
+      "clashCount": 0,
+      "dropCount": 1,
+      "collectionAp": 3,
+      "clashAp": 0,
+      "totalAp": 3,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 1,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 0,
+          "complete": false
+        }
+      ]
+    },
+    "912951849953419275": {
+      "userId": "912951849953419275",
+      "username": "Unknown",
+      "dropCardCounts": {},
+      "clashCardCounts": {
+        "common": 1
+      },
+      "clashCount": 2,
+      "dropCount": 0,
+      "collectionAp": 1,
+      "clashAp": 0,
+      "totalAp": 1,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 0,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 2,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 2,
+          "complete": false
+        }
+      ]
+    },
+    "1497736760048881856": {
+      "userId": "1497736760048881856",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "rare": 1
+      },
+      "clashCardCounts": {},
+      "clashCount": 0,
+      "dropCount": 1,
+      "collectionAp": 3,
+      "clashAp": 0,
+      "totalAp": 3,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 1,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 0,
+          "complete": false
+        }
+      ]
+    },
+    "428355417475776522": {
+      "userId": "428355417475776522",
+      "username": "Unknown",
+      "dropCardCounts": {
+        "rare": 1
+      },
+      "clashCardCounts": {},
+      "clashCount": 0,
+      "dropCount": 1,
+      "collectionAp": 3,
+      "clashAp": 0,
+      "totalAp": 3,
+      "dropMilestones": [
+        {
+          "cards": 5,
+          "bonus": 50,
+          "label": "5 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 10,
+          "bonus": 150,
+          "label": "10 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 20,
+          "bonus": 300,
+          "label": "20 cards",
+          "current": 1,
+          "complete": false
+        },
+        {
+          "cards": 30,
+          "bonus": 500,
+          "label": "30 cards",
+          "current": 1,
+          "complete": false
+        }
+      ],
+      "clashMilestones": [
+        {
+          "clashes": 10,
+          "bonus": 100,
+          "label": "10 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 25,
+          "bonus": 200,
+          "label": "25 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 50,
+          "bonus": 400,
+          "label": "50 clashes",
+          "current": 0,
+          "complete": false
+        },
+        {
+          "clashes": 100,
+          "bonus": 750,
+          "label": "100 clashes",
+          "current": 0,
+          "complete": false
+        }
+      ]
+    }
+  }
+}
